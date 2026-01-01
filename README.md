@@ -2,6 +2,10 @@
 
 A backend service that compares two versions of a document and detects whether the document has changed in a meaningful way.
 
+![Workflow Diagram](./workflow.jpg)
+
+---
+
 This project can be used for comparing:
 - Privacy Policies
 - Terms & Conditions
@@ -17,6 +21,10 @@ This project focuses on semantic comparison, not simple text matching.
 - Python
 - Hugging Face Sentence Transformers
 - BentoML
+
+---
+
+![Workflow Diagram](./flowChart.jpg)
 
 ---
 
@@ -95,6 +103,10 @@ This allows other applications to consume the document comparison logic easily.
 - Semantic document comparison using embeddings
 - Building a production-style API with BentoML
 - Clean separation between experimentation and deployment
+
+---
+
+![Workflow Diagram](./animation.jpg)
 
 ---
 
